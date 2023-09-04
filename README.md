@@ -15,7 +15,7 @@ pip install git+https://github.com/LouisFaure/deseq2py.git
 
 ```python
 import scanpy as sc
-import deseq2py as deseq
+import deseq2py as deseq2
 adata_bulk = sc.read("adata_bulk.h5ad")
 
 deseq2.tl.run(adata_bulk,formula="~ condition")
